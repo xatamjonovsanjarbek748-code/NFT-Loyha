@@ -1,0 +1,1224 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2B2B2B;
+}
+.container header {
+  width: 100%;
+  height: 500px;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 50px 34px;
+}
+.container header nav .link {
+  display: flex;
+  justify-content: space-between;
+}
+.container header nav .link ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.container header nav .link ul li {
+  display: flex;
+  gap: 30px;
+}
+.container header nav .link ul li a {
+  color: white;
+  cursor: pointer;
+}
+.container header nav .link ul button {
+  width: 152px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: medium;
+}
+.container header nav .link ul button:hover {
+  background-color: white;
+  color: #A259FF;
+  border: none;
+  cursor: pointer;
+}
+.container header .cards {
+  padding-left: 120px;
+}
+.container header .cards h1 {
+  color: white;
+  width: 300px;
+  font-size: 50px;
+}
+.container header .cards p {
+  color: white;
+  font-size: 20px;
+  width: 400px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+.container header .cards button {
+  width: 224px;
+  height: 60px;
+  border-radius: 20px;
+  color: white;
+  background-color: #A259FF;
+  font-size: medium;
+  border: none;
+  margin-top: 30px;
+}
+.container header .cards button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #A259FF;
+}
+.container header .cards .card {
+  display: flex;
+  gap: 60px;
+  padding-top: 70px;
+}
+.container header .cards .card .card1 {
+  color: white;
+  font-size: 25px;
+}
+.container header .box1 {
+  width: 510px;
+  height: 510px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-top: -470px;
+}
+.container header .box1 h2 {
+  color: white;
+  padding-left: 20px;
+}
+.container header .box1 .rasm3 {
+  padding: 20px 20px;
+}
+.container header .box1 p {
+  color: white;
+  margin-top: -44px;
+  padding-left: 50px;
+}
+.container main {
+  width: 100%;
+  min-height: 730vh;
+}
+.container main .titl {
+  margin-top: 320px;
+  padding-left: 120px;
+}
+.container main .titl h1 {
+  color: white;
+  font-size: 30px;
+}
+.container main .titl p {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.container main .box2 {
+  display: flex;
+  gap: 120px;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+.container main .box2 .card2 {
+  width: 330px;
+  height: 525px;
+}
+.container main .box2 .card2 .pj {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.container main .box2 .card2 .pj .tanla {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: medium;
+}
+.container main .box2 .card2 h2 {
+  color: white;
+  padding-top: 20px;
+}
+.container main .box2 .card2 .avatar {
+  color: white;
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+}
+.container main .box2 .card3 {
+  width: 330px;
+  height: 525px;
+  padding-left: 0px;
+}
+.container main .box2 .card3 .pj {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.container main .box2 .card3 .pj .tanla {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: medium;
+}
+.container main .box2 .card3 h2 {
+  color: white;
+  padding-top: 20px;
+}
+.container main .box2 .card3 .avatar {
+  color: white;
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+}
+.container main .box2 .card4 {
+  width: 330px;
+  height: 525px;
+}
+.container main .box2 .card4 .pj {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.container main .box2 .card4 .pj .tanla {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: medium;
+}
+.container main .box2 .card4 h2 {
+  color: white;
+  padding-top: 20px;
+}
+.container main .box2 .card4 .avatar {
+  color: white;
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+}
+.container main .titl1 {
+  margin-top: 150px;
+  margin-left: 120px;
+  display: flex;
+  gap: 650px;
+}
+.container main .titl1 h1 {
+  color: white;
+}
+.container main .titl1 p {
+  color: white;
+  padding-top: 10px;
+}
+.container main .titl1 button {
+  width: 247px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #A259FF;
+  color: white;
+  cursor: pointer;
+}
+.container main .box3 {
+  padding-left: 120px;
+  padding-top: 40px;
+}
+.container main .box3 .boxes {
+  display: flex;
+  gap: 100px;
+}
+.container main .box3 .chest {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest1 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest2 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest3 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .boxes1 {
+  padding-top: 30px;
+  display: flex;
+  gap: 100px;
+}
+.container main .box3 .chest {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  text-align: start;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest1 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest2 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  text-align: start;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest3 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .boxes2 {
+  padding-top: 30px;
+  display: flex;
+  gap: 100px;
+}
+.container main .box3 .chest {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  text-align: start;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest1 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest2 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+  text-align: start;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box3 .chest3 {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box3 .chestt {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.container main .box3 .chestt .nam {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B2B2B;
+}
+.container main .box3 .chesttt {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.container main .box3 .chesttt h2 {
+  color: white;
+  font-size: 20px;
+}
+.container main .box3 .chesttt h5 {
+  color: white;
+  margin-left: -20px;
+}
+.container main .box3 .chesttt span {
+  color: #676767;
+}
+.container main .box4 {
+  font-size: 50px;
+  color: white;
+  margin-top: 100px;
+  padding-left: 120px;
+}
+.container main .box5 {
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+  padding-left: 120px;
+}
+.container main .box5 .boxs1 {
+  display: flex;
+  gap: 100px;
+}
+.container main .box5 .boxs1 .cards1 {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box5 .boxs1 .cards1 h2 {
+  color: white;
+  padding: 20px 20px;
+}
+.container main .box5 .boxs1 .cards2 {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box5 .boxs1 .cards2 h2 {
+  color: white;
+  padding: 20px 20px;
+}
+.container main .box5 .boxs1 .cards3 {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box5 .boxs1 .cards3 h2 {
+  color: white;
+  padding: 20px 20px;
+}
+.container main .box5 .boxs1 .cards4 {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box5 .boxs1 .cards4 h2 {
+  color: white;
+  padding: 20px 20px;
+}
+.container main .box5 .boxs2 {
+  display: flex;
+  gap: 100px;
+  position: absolute;
+  padding-top: 350px;
+}
+.container main .box5 .boxs2 .cards5 {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box5 .boxs2 .cards5 h2 {
+  color: white;
+  padding: 20px 20px;
+}
+.container main .box5 .boxs2 .cards6 {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box5 .boxs2 .cards6 h2 {
+  color: white;
+  padding: 20px 20px;
+}
+.container main .box5 .boxs2 .cards7 {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box5 .boxs2 .cards7 h2 {
+  color: white;
+  padding: 20px 20px;
+}
+.container main .box5 .boxs2 .cards8 {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.container main .box5 .boxs2 .cards8 h2 {
+  color: white;
+  padding: 20px 20px;
+}
+.container main .box6 {
+  padding-left: 120px;
+  padding-top: 450px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 140px;
+}
+.container main .box6 h1 {
+  color: white;
+  font-size: 50px;
+}
+.container main .box6 p {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.container main .box6 button {
+  width: 187px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #A259FF;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.container main .box8 {
+  display: flex;
+  gap: 135px;
+  padding-left: 120px;
+  padding-top: 50px;
+}
+.container main .box8 .box9 {
+  width: 330px;
+  height: 480px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+.container main .box8 .box9 .box10 {
+  padding: 20px 20px;
+  line-height: 50px;
+}
+.container main .box8 .box9 .box10 h2 {
+  color: white;
+}
+.container main .box8 .box9 .box10 h5 {
+  color: white;
+  padding-left: 32px;
+  margin-top: -53px;
+}
+.container main .box8 .box11 {
+  padding-left: 20px;
+}
+.container main .box8 .box11 h5 {
+  color: #2B2B2B;
+}
+.container main .box8 .box11 h4 {
+  color: white;
+}
+.container main .box8 .box12 {
+  padding-left: 230px;
+  margin-top: -30px;
+}
+.container main .box8 .box12 h5 {
+  color: #2B2B2B;
+}
+.container main .box8 .box12 h4 {
+  color: white;
+}
+.container main .box8 .box13 {
+  width: 330px;
+  height: 480px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+.container main .box8 .box13 .box14 {
+  padding: 20px 20px;
+  line-height: 50px;
+}
+.container main .box8 .box13 .box14 h2 {
+  color: white;
+}
+.container main .box8 .box13 .box14 h5 {
+  color: white;
+  padding-left: 32px;
+  margin-top: -53px;
+}
+.container main .box8 .box15 {
+  padding-left: 20px;
+}
+.container main .box8 .box15 h5 {
+  color: #2B2B2B;
+}
+.container main .box8 .box15 h4 {
+  color: white;
+}
+.container main .box8 .box16 {
+  padding-left: 230px;
+  margin-top: -30px;
+}
+.container main .box8 .box16 h5 {
+  color: #2B2B2B;
+}
+.container main .box8 .box16 h4 {
+  color: white;
+}
+.container main .box8 .box17 {
+  width: 330px;
+  height: 480px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+.container main .box8 .box17 .box18 {
+  padding: 20px 20px;
+  line-height: 50px;
+}
+.container main .box8 .box17 .box18 h2 {
+  color: white;
+}
+.container main .box8 .box17 .box18 h5 {
+  color: white;
+  padding-left: 32px;
+  margin-top: -53px;
+}
+.container main .box8 .box19 {
+  padding-left: 20px;
+}
+.container main .box8 .box19 h5 {
+  color: #2B2B2B;
+}
+.container main .box8 .box19 h4 {
+  color: white;
+}
+.container main .box8 .box20 {
+  padding-left: 230px;
+  margin-top: -30px;
+}
+.container main .box8 .box20 h5 {
+  color: #2B2B2B;
+}
+.container main .box8 .box20 h4 {
+  color: white;
+}
+.container main .box21 {
+  width: 100%;
+  height: 640px;
+  background: linear-gradient(rgba(162, 89, 255, 0), #A259FF);
+  margin-top: 100px;
+}
+.container main .box21 .box22 {
+  padding-left: 120px;
+  padding-top: 250px;
+}
+.container main .box21 .box22 .box23 {
+  width: 151px;
+  height: 44px;
+  background-color: #2B2B2B;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+}
+.container main .box21 .box22 .box23 img {
+  width: 30px;
+  height: 30px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.container main .box21 .box22 .box23 h5 {
+  padding-top: 15px;
+}
+.container main .box21 .box22 h1 {
+  color: white;
+  font-size: 50px;
+  padding-top: 35px;
+}
+.container main .box21 .box22 button {
+  width: 198px;
+  height: 60px;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  border: transparent;
+  margin-top: 45px;
+  cursor: pointer;
+}
+.container main .box21 .box24 {
+  width: 295px;
+  height: 144px;
+  background-color: rgba(59, 59, 59, 0.5019607843);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-left: 1100px;
+  margin-top: -100px;
+  padding: 20px 20px;
+}
+.container main .box21 .box24 h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+.container main .box21 .box24 .soat {
+  color: white;
+  font-size: 70px;
+}
+.container main .box21 .box24 .minut {
+  color: white;
+  font-size: 20px;
+}
+.container main .box21 .box24 .minut span {
+  color: transparent;
+}
+.container main .box25 {
+  padding-left: 120px;
+  padding-top: 100px;
+}
+.container main .box25 h1 {
+  color: white;
+  font-size: 30px;
+}
+.container main .box25 p {
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.container main .box26 {
+  padding: 20px 20px;
+  display: flex;
+  padding-left: 120px;
+  padding-top: 30px;
+  gap: 150px;
+}
+.container main .box26 .box27 {
+  width: 330px;
+  height: 439px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+.container main .box26 .box27 img {
+  padding-left: 30px;
+}
+.container main .box26 .box27 h3 {
+  color: white;
+  padding-left: 80px;
+}
+.container main .box26 .box27 p {
+  color: grey;
+  width: 250px;
+  text-align: center;
+  padding-left: 40px;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+.container main .box26 .box28 {
+  width: 330px;
+  height: 439px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+.container main .box26 .box28 img {
+  padding-left: 30px;
+}
+.container main .box26 .box28 h3 {
+  color: white;
+  padding-left: 80px;
+}
+.container main .box26 .box28 p {
+  color: grey;
+  width: 250px;
+  text-align: center;
+  padding-left: 40px;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+.container main .box26 .box29 {
+  width: 330px;
+  height: 439px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+.container main .box26 .box29 img {
+  padding-left: 30px;
+}
+.container main .box26 .box29 h3 {
+  color: white;
+  padding-left: 100px;
+}
+.container main .box26 .box29 p {
+  color: grey;
+  width: 250px;
+  text-align: center;
+  padding-left: 40px;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+.container main .box30 {
+  width: 1280px;
+  height: 430px;
+  border-radius: 20px;
+  padding: 60px;
+  background-color: #3B3B3B;
+  margin-top: 100px;
+  margin-left: 120px;
+  display: flex;
+  gap: 80px;
+}
+.container main .box30 img {
+  padding-left: 80px;
+}
+.container main .box30 .box31 h1 {
+  color: white;
+  font-size: 40px;
+  width: 300px;
+}
+.container main .box30 .box31 h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  width: 350px;
+  padding-top: 20px;
+}
+.container main .box30 .box31 input {
+  width: 180px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  border: transparent;
+  margin-top: 70px;
+}
+.container main .box30 .box31 button {
+  width: 221px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  border: transparent;
+  margin-left: -30px;
+  cursor: pointer;
+}
+.container footer {
+  width: 100%;
+  height: 334px;
+  background-color: #3B3B3B;
+  padding: 80px;
+}
+.container footer p {
+  color: grey;
+  width: 300px;
+  line-height: 30px;
+}
+.container footer .ikonka {
+  color: grey;
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+}
+.container footer .ikonka i {
+  cursor: pointer;
+}
+.container footer .linklar {
+  margin-left: 600px;
+  margin-top: -150px;
+}
+.container footer .linklar nav {
+  line-height: 30px;
+}
+.container footer .linklar nav h2 {
+  color: white;
+}
+.container footer .linklar nav ul {
+  display: flex;
+  gap: 30px;
+}
+.container footer .linklar nav ul li a {
+  color: grey;
+  display: flex;
+}
+.container footer .cheklar {
+  margin-left: 900px;
+  margin-top: -130px;
+}
+.container footer .cheklar h1 {
+  color: white;
+  font-size: 40px;
+}
+.container footer .cheklar p {
+  color: grey;
+  width: 300px;
+}
+.container footer .cheklar input {
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  color: grey;
+  border: none;
+  padding-left: 20px;
+}
+.container footer .cheklar button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  background-color: #A259FF;
+  color: white;
+  border-radius: 20px;
+  margin-left: -50px;
+}
+.container footer .cheklar .chiziq {
+  line-height: 30px;
+}
+.container footer .cheklar .chiziq h5 {
+  color: white;
+}
+.container footer .cheklar .chiziq h4 {
+  color: grey;
+}/*# sourceMappingURL=style.css.map */
