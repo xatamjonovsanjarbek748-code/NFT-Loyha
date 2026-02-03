@@ -63,7 +63,10 @@
         }
 
         .cards {
-            padding-left: 120px;
+            padding: 0px 200px;
+            justify-content: space-between;
+            display: flex;
+            // gap: 50px;
 
             h1 {
                 color: white;
@@ -113,8 +116,6 @@
             height: 510px;
             background-color: #3B3B3B;
             border-radius: 20px;
-            margin-left: 600px;
-            margin-top: -470px;
 
             h2 {
                 color: white;
@@ -127,7 +128,7 @@
 
             p {
                 color: white;
-                margin-top: -44px;
+                margin-top: -65px;
                 padding-left: 50px;
             }
         }
@@ -1036,6 +1037,7 @@
                     color: white;
                 }
             }
+
             .box13 {
                 width: 330px;
                 height: 480px;
@@ -1082,6 +1084,7 @@
                     color: white;
                 }
             }
+
             .box17 {
                 width: 330px;
                 height: 480px;
@@ -1129,15 +1132,18 @@
                 }
             }
         }
-        .box21{
+
+        .box21 {
             width: 100%;
             height: 640px;
-            background: linear-gradient(#A259FF00,#A259FF);
+            background: linear-gradient(#A259FF00, #A259FF);
             margin-top: 100px;
-            .box22{
+
+            .box22 {
                 padding-left: 120px;
                 padding-top: 250px;
-                .box23{
+
+                .box23 {
                     width: 151px;
                     height: 44px;
                     background-color: #2B2B2B;
@@ -1145,22 +1151,26 @@
                     border-radius: 20px;
                     display: flex;
                     gap: 20px;
-                    img{
+
+                    img {
                         width: 30px;
                         height: 30px;
                         margin-top: 6px;
                         margin-left: 10px;
                     }
-                    h5{
+
+                    h5 {
                         padding-top: 15px;
                     }
                 }
-                h1{
+
+                h1 {
                     color: white;
                     font-size: 50px;
                     padding-top: 35px;
                 }
-                button{
+
+                button {
                     width: 198px;
                     height: 60px;
                     border-radius: 20px;
@@ -1171,7 +1181,8 @@
                     cursor: pointer;
                 }
             }
-            .box24{
+
+            .box24 {
                 width: 295px;
                 height: 144px;
                 background-color: #3B3B3B80;
@@ -1180,56 +1191,68 @@
                 margin-left: 1100px;
                 margin-top: -100px;
                 padding: 20px 20px;
-                h2{
+
+                h2 {
                     color: white;
                     font-weight: 100;
                     font-size: 20px;
                 }
-                .soat{
+
+                .soat {
                     color: white;
                     font-size: 70px;
                 }
-                .minut{
+
+                .minut {
                     color: white;
                     font-size: 20px;
-                    span{
+
+                    span {
                         color: transparent;
                     }
                 }
             }
         }
-        .box25{
+
+        .box25 {
             padding-left: 120px;
             padding-top: 100px;
-            h1{
+
+            h1 {
                 color: white;
                 font-size: 30px;
             }
-            p{
+
+            p {
                 color: white;
                 font-size: 20px;
                 padding-top: 10px;
             }
         }
-        .box26{
+
+        .box26 {
             padding: 20px 20px;
             display: flex;
             padding-left: 120px;
             padding-top: 30px;
             gap: 150px;
-            .box27{
+
+            .box27 {
                 width: 330px;
                 height: 439px;
                 border-radius: 20px;
                 background-color: #3B3B3B;
-                img{
+
+                img {
                     padding-left: 30px;
                 }
-                h3{
+
+                h3 {
                     color: white;
                     padding-left: 80px;
                 }
-                p{
+
+                p {
                     color: grey;
                     width: 250px;
                     text-align: center;
@@ -1238,19 +1261,23 @@
                     padding-top: 20px;
                 }
             }
-            .box28{
+
+            .box28 {
                 width: 330px;
                 height: 439px;
                 border-radius: 20px;
                 background-color: #3B3B3B;
-                img{
+
+                img {
                     padding-left: 30px;
                 }
-                h3{
+
+                h3 {
                     color: white;
                     padding-left: 80px;
                 }
-                p{
+
+                p {
                     color: grey;
                     width: 250px;
                     text-align: center;
@@ -1259,19 +1286,23 @@
                     padding-top: 20px;
                 }
             }
-            .box29{
+
+            .box29 {
                 width: 330px;
                 height: 439px;
                 border-radius: 20px;
                 background-color: #3B3B3B;
-                img{
+
+                img {
                     padding-left: 30px;
                 }
-                h3{
+
+                h3 {
                     color: white;
                     padding-left: 100px;
                 }
-                p{
+
+                p {
                     color: grey;
                     width: 250px;
                     text-align: center;
@@ -1281,7 +1312,8 @@
                 }
             }
         }
-        .box30{
+
+        .box30 {
             width: 1280px;
             height: 430px;
             border-radius: 20px;
@@ -1291,23 +1323,27 @@
             margin-left: 120px;
             display: flex;
             gap: 80px;
-            img{
+
+            img {
                 padding-left: 80px;
             }
-            .box31{
-                h1{
+
+            .box31 {
+                h1 {
                     color: white;
                     font-size: 40px;
                     width: 300px;
                 }
-                h5{
+
+                h5 {
                     color: white;
                     font-size: 20px;
                     font-weight: 100;
                     width: 350px;
                     padding-top: 20px;
                 }
-                input{
+
+                input {
                     width: 180px;
                     height: 60px;
                     border-radius: 20px;
@@ -1317,7 +1353,8 @@
                     border: transparent;
                     margin-top: 70px;
                 }
-                button{
+
+                button {
                     width: 221px;
                     height: 60px;
                     border-radius: 20px;
@@ -1330,85 +1367,287 @@
             }
         }
     }
-    footer{
+
+    footer {
         width: 100%;
         height: 334px;
         background-color: #3B3B3B;
         padding: 80px;
-     p{
-        color: grey;
-        width: 300px;
-        line-height: 30px;
-     }
-     .ikonka{
-        color: grey;
-        font-size: 20px;
-        display: flex;
-        gap: 15px;
-        padding-top: 10px;
-        i{
-            cursor: pointer;
-        }
-     }
-     .linklar{
-        margin-left: 600px;
-        margin-top: -150px;
-        nav{
+
+        p {
+            color: grey;
+            width: 300px;
             line-height: 30px;
-            h2{
-                color: white;
+        }
+
+        .ikonka {
+            color: grey;
+            font-size: 20px;
+            display: flex;
+            gap: 15px;
+            padding-top: 10px;
+
+            i {
+                cursor: pointer;
             }
-            ul{
-                display: flex;
-                gap: 30px;
-                li{
-                    a{
-                        color: grey;
-                        display: flex;
+        }
+
+        .linklar {
+            margin-left: 600px;
+            margin-top: -150px;
+
+            nav {
+                line-height: 30px;
+
+                h2 {
+                    color: white;
+                }
+
+                ul {
+                    display: flex;
+                    gap: 30px;
+
+                    li {
+                        a {
+                            color: grey;
+                            display: flex;
+                        }
                     }
                 }
             }
         }
-     }
-     .cheklar{
-        margin-left: 900px;
-        margin-top: -130px;
-        h1{
-            color: white;
-            font-size: 40px;
+
+        .cheklar {
+            margin-left: 900px;
+            margin-top: -130px;
+
+            h1 {
+                color: white;
+                font-size: 40px;
+            }
+
+            p {
+                color: grey;
+                width: 300px;
+            }
+
+            input {
+                width: 250px;
+                height: 60px;
+                border-radius: 20px;
+                background-color: white;
+                color: grey;
+                border: none;
+                padding-left: 20px;
+            }
+
+            button {
+                width: 200px;
+                height: 60px;
+                border: none;
+                cursor: pointer;
+                background-color: #A259FF;
+                color: white;
+                border-radius: 20px;
+                margin-left: -50px;
+            }
+
+            .chiziq {
+                line-height: 30px;
+
+                h5 {
+                    color: white;
+                }
+
+                h4 {
+                    color: grey;
+                }
+            }
         }
-        p{
-            color: grey;
-            width: 300px;
+    }
+
+    @media(max-width:480px) {
+
+        header nav a{
+            display: none;
         }
-        input{
-            width: 250px;
-            height: 60px;
-            border-radius: 20px;
-            background-color: white;
-            color: grey;
-            border: none;
-            padding-left: 20px;
+        header nav button{
+            display: none;
         }
-        button{
-            width: 200px;
-            height: 60px;
-            border: none;
-            cursor: pointer;
-            background-color: #A259FF;
-            color: white;
-            border-radius: 20px;
+
+        header .cards {
+            padding: 0px 15px;
+            flex-direction: column-reverse;
+        }
+
+        header .box1 {
+            width: 400px;
+            height: 450px;
+            margin: 156px auto;
+        }
+
+         header .box1 img:nth-child(1) {
+            width: 100%;
+         }
+
+        header .box2 h1 {
+            font-size: 28px;
+            line-height: 1.2;
+        }
+        .card{
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .card1 h2{
+            font-size: 22px;
+        }
+        .box2{
+            flex-direction: column;
+            padding: 0 !important;
+            button{
+                width: 450px!important;
+                position: absolute;
+                top:770px;
+            }
+            h1{
+                position: absolute;
+                top:100px;
+            }
+            p{
+                position: absolute;
+                top: 200px;
+            }
+            .card{
+                margin-top: -70px;
+            }
+
+        }  
+        .titl {
+            margin-top: 600px !important;
+            padding: 0 !important;
+        }
+        main .box2{
+            margin-left: 70px;
+            margin-top: 10px;
+        }
+        main .titl1 .soz{
+            margin-left: -100px;
+            h1{
+                font-size: 40px;
+            }
+            p{
+                width: 400px;
+            }
+        }
+        main .titl1{
+            display: none;
+        }
+        main .box3{
+            margin-left: -100px;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            .boxes{
+                flex-direction: column;
+                gap: 10px;
+            }
+            .boxes1{
+                display: none;
+            }
+            .boxes2{
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+        main .box4 {
+            padding: 0;
+        }
+        main .box5{
+            padding:  0;
+             .cards4{
+                display: none;
+            }
+             .cards3{
+                display: none;
+            }
+             .cards2{
+                margin-left: -100px;
+            }
+        }
+        main .boxs2{
+            width: 100%;
+            .cards5{
+                display: none;
+            }
+             .cards6{
+                display: none;
+            }
+            .cards8{
+                margin-left: -100px;
+            }
+        }
+        main .box6{
+            button{
+                width: 200px;
+            }
+            .box7{
+                h1{
+                    width: 400px;
+                    margin-left: -100px;
+                }
+                p{
+                    margin-left: -100px;
+                }
+            } 
+        }
+        main .box8{
+            flex-direction: column;
+           margin-left: -50px;
+           gap: 20px;
+        }
+        main .box21{
+            width: 100%;
+        }
+        main .box24{
+            display: none;
+        }
+        main .box26{
+            flex-direction: column;
             margin-left: -50px;
         }
-        .chiziq{
-            line-height: 30px;
-            h5{
-                color: white;
+        main .box30{
+            width: 110%;
+            margin-left: -51px;
+            margin-top: -5px;
+            flex-direction: column;
+            img{
+                margin-left: -60px;
             }
-            h4{
-                color: grey;
+           .box31{
+            margin-top: -70px;
+            margin-left: 20px;
+           } 
+        }
+        main .avatar{
+            p{
+                display: none;
             }
         }
-     }
+        footer{
+            height: 650px;
+            flex-direction: column;
+            .box33{
+                margin-top: 350px;
+            }
+            .linklar{
+                display: none;
+            }
+            .cheklar{
+                display: none;
+            }
+            .chiziq{
+                display: none;
+            }
+        }
     }
 }

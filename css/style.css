@@ -56,7 +56,9 @@
   cursor: pointer;
 }
 .container header .cards {
-  padding-left: 120px;
+  padding: 0px 200px;
+  justify-content: space-between;
+  display: flex;
 }
 .container header .cards h1 {
   color: white;
@@ -99,8 +101,6 @@
   height: 510px;
   background-color: #3B3B3B;
   border-radius: 20px;
-  margin-left: 600px;
-  margin-top: -470px;
 }
 .container header .box1 h2 {
   color: white;
@@ -111,7 +111,7 @@
 }
 .container header .box1 p {
   color: white;
-  margin-top: -44px;
+  margin-top: -65px;
   padding-left: 50px;
 }
 .container main {
@@ -1221,4 +1221,176 @@
 }
 .container footer .cheklar .chiziq h4 {
   color: grey;
+}
+@media (max-width: 480px) {
+  .container header nav a {
+    display: none;
+  }
+  .container header nav button {
+    display: none;
+  }
+  .container header .cards {
+    padding: 0px 15px;
+    flex-direction: column-reverse;
+  }
+  .container header .box1 {
+    width: 400px;
+    height: 450px;
+    margin: 156px auto;
+  }
+  .container header .box1 img:nth-child(1) {
+    width: 100%;
+  }
+  .container header .box2 h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .container .card {
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .container .card1 h2 {
+    font-size: 22px;
+  }
+  .container .box2 {
+    flex-direction: column;
+    padding: 0 !important;
+  }
+  .container .box2 button {
+    width: 450px !important;
+    position: absolute;
+    top: 770px;
+  }
+  .container .box2 h1 {
+    position: absolute;
+    top: 100px;
+  }
+  .container .box2 p {
+    position: absolute;
+    top: 200px;
+  }
+  .container .box2 .card {
+    margin-top: -70px;
+  }
+  .container .titl {
+    margin-top: 600px !important;
+    padding: 0 !important;
+  }
+  .container main .box2 {
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .container main .titl1 .soz {
+    margin-left: -100px;
+  }
+  .container main .titl1 .soz h1 {
+    font-size: 40px;
+  }
+  .container main .titl1 .soz p {
+    width: 400px;
+  }
+  .container main .titl1 {
+    display: none;
+  }
+  .container main .box3 {
+    margin-left: -100px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .container main .box3 .boxes {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container main .box3 .boxes1 {
+    display: none;
+  }
+  .container main .box3 .boxes2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container main .box4 {
+    padding: 0;
+  }
+  .container main .box5 {
+    padding: 0;
+  }
+  .container main .box5 .cards4 {
+    display: none;
+  }
+  .container main .box5 .cards3 {
+    display: none;
+  }
+  .container main .box5 .cards2 {
+    margin-left: -100px;
+  }
+  .container main .boxs2 {
+    width: 100%;
+  }
+  .container main .boxs2 .cards5 {
+    display: none;
+  }
+  .container main .boxs2 .cards6 {
+    display: none;
+  }
+  .container main .boxs2 .cards8 {
+    margin-left: -100px;
+  }
+  .container main .box6 button {
+    width: 200px;
+  }
+  .container main .box6 .box7 h1 {
+    width: 400px;
+    margin-left: -100px;
+  }
+  .container main .box6 .box7 p {
+    margin-left: -100px;
+  }
+  .container main .box8 {
+    flex-direction: column;
+    margin-left: -50px;
+    gap: 20px;
+  }
+  .container main .box21 {
+    width: 100%;
+  }
+  .container main .box24 {
+    display: none;
+  }
+  .container main .box26 {
+    flex-direction: column;
+    margin-left: -50px;
+  }
+  .container main .box30 {
+    width: 110%;
+    margin-left: -51px;
+    margin-top: -5px;
+    flex-direction: column;
+  }
+  .container main .box30 img {
+    margin-left: -60px;
+  }
+  .container main .box30 .box31 {
+    margin-top: -70px;
+    margin-left: 20px;
+  }
+  .container main .avatar p {
+    display: none;
+  }
+  .container footer {
+    height: 650px;
+    flex-direction: column;
+  }
+  .container footer .box33 {
+    margin-top: 350px;
+  }
+  .container footer .linklar {
+    display: none;
+  }
+  .container footer .cheklar {
+    display: none;
+  }
+  .container footer .chiziq {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
